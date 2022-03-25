@@ -6,7 +6,7 @@ on:
    - "MVVM-Demo/v*"
 
 env:
- PROJECT_PATH: MVVM Demo/MVVM_Demo.csproj
+ PROJECT_PATH: MVVM Demo/MVVM Demo.csproj
 
 jobs:
  deploy:
