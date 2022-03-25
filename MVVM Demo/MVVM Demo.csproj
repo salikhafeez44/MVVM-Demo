@@ -6,6 +6,7 @@
     <RootNamespace>MVVM_Demo</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    
   </PropertyGroup>
 
 </Project>
