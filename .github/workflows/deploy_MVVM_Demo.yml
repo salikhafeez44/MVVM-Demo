@@ -3,7 +3,7 @@ name: "Deploy MVVM Demo"
 on:
  push:
   tags:
-   - "MVVM Demo/v*"
+   - "MVVM-Demo/v*"
 
 env:
  PROJECT_PATH: MVVM Demo/MVVM Demo.csproj
