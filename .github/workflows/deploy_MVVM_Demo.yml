@@ -17,8 +17,7 @@ jobs:
       with:
        dotnet-version: 5.0.x
       
-    
-    - run: dontnet build ${{ env.PROJECT_PATH }} -c Release --no-restore
+    - run: dotnet build ${{ env.PROJECT_PATH }} -c Release
     - run: dotnet publish ${{ env.PROJECT_PATH }} -c Release --self-contained -r win-x64 -p:PublishSingleFile=true --no-build
     - uses: actions/create-release@v1
       id: create_release
